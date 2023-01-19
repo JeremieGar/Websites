@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+}
+
+/* Youssef CSS */
+body {
+    background-color: rgb(255, 255, 255);
+}
+table {
+    width: 100%;
+    text-align: center;
+    font-family: Arial;
+}
+table th  {
+    letter-spacing: 0.1em;
+    height: 30px;
+    border-radius: 0px;
+    border-bottom: 3px solid #795bc5;
+    color: rgb(167, 168, 174);
+}
+table th:hover{
+    border-bottom: #ebe2ea;
+}
+table td {
+    height: 15px;
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+    letter-spacing: 0.25em;
+}
+table tr :hover {
+    color: black;
+}
+#supplier {
+    color: rgb(0, 0, 0);
+}
+.add {
+    background-color: rgb(255, 255, 255);
+    padding: 5px 12px;
+    border: none;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid rgb(9, 9, 9);
+}
+.products {
+    text-decoration: none;
+}
+.create-login{
+    padding-bottom:25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+.form-title{
+    text-align: center;
+    font-family: Arial;
+    margin-bottom:30px;
+    margin-top:15px;
+}
+.label-name{
+    text-align:left;
+}
+.filterBtn {
+    background-color: #795bc5;
+    color: white;
+    border: 2px solid #795bc5;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    padding: 8px 2px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.filterBtn:hover {
+    background-color: white;
+    color: #795bc5;
+    border: 2px solid #795bc5;
+}
+.checkout {
+    color: #795bc5;
+    border: 2px solid #795bc5;
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.drpdwnSrch {
+    background-color: white;
+    color: #795bc5;
+    padding: 6px 6px;
+    font-size: 13px;
+    border: 2px solid #795bc5;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.srchBar {
+    padding: 8px 8px;
+    border-radius: 15px;
+    border-color: #795bc5;
+}
+.add-row{
+    width:15%;
+}
+.srchBtn, .add-row {
+    width: auto;
+    padding: 8px 8px;
+    background: #795bc5;
+    color: white;
+    font-size: 15px;
+    border: 2px solid #795bc5;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+}
+.srchBtn:hover, .add-row:hover{
+    background-color: white;
+    color: #795bc5;
+    border: 2px solid #795bc5;
+}
+.showResults {
+    color: grey;
+    font-size: 10px;
+    letter-spacing: 0em;
+}
+.sortBy {
+    color: grey;
+    font-size: 11px;
+    letter-spacing: 0em;
+}
+.itemTable {
+    padding-top: 20px;
+    border-spacing: 10px;
+}
+.out {
+    margin-top: 50px;
+}
+.outBtn {
+    border-radius: 15px;
+    background-color: #795bc5;
+    color: white;
+    transition-duration: 0.4s;
+    border: 2px solid #795bc5;
+}
+.outBtn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #795bc5;
+}
+/* Youssef CSS */
+
+
+/* SideBar CSS */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10%;
+    border-top: 10px solid #000000;
+    border-right: 10px solid #000000;
+    background-color: #000000;
+}
+
+.sidebar div li {
+    list-style: none;
+}
+
+.sidebar div {
+    padding-top: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+.sidebar div ul li a {
+    text-decoration: none;
+    letter-spacing: 0.3em;
+    color: rgb(211, 195, 195);
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-left: 5px solid transparent;
+    transition-duration: 0.5s;
+}
+
+.sidebar div ul a:hover{
+    color:rgb(129, 122, 122);
+}
+
+.sidebar div ul li a:hover {
+    border-left-color: #795bc5;
+} 
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    height: 1000px;
+    display: flex;
+    text-align: right;
+}
+
+main .sidebar {
+    background-color: #000;
+    flex: 1 1 150px;
+}
+main .maincontent {
+    padding-top: 50px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 2%;
+    display: flex;
+    flex-direction: column;
+    flex: 3 1 600px;
+}
+
+/* SideBar CSS */
+
+/* account page CSS */
+.h2Acc {
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    font-family: Arial;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 282px;
+    border-bottom: 3px solid #795bc5;
+}
+.img {
+    width: 30%;
+    height: 30%;
+    border-radius: 15px;
+}
+.infoDiv {
+    background-color: white;
+    width: 80%;
+    border-radius: 15px;
+    border: 2px solid #795bc5;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.userInfoTable {
+    width: 100%;
+    padding: 30px 30px;
+}
+.upload {
+    font-size: 12px;
+    letter-spacing: 0em;
+}
+.accEditBtn {
+    width:23%;
+    margin-top:10px;
+    margin-left:120%;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 2px solid lightgray;
+    transition-duration: 0.5s;
+}
+.accEditBtn:hover {
+    background-color: white;
+    border: 2px solid #795bc5;
+    cursor: pointer;
+}
+.tdImg {
+    height: auto;
+    padding-right: 60px;
+}
+/* account page CSS */
+
+/*Supplier row adding */
+
+.client-order{
+    border-bottom: 5pt solid black;
+    transition: ease all 300ms;
+
+}
+
+.client-order:hover{
+    transform: scale(1.01);
+    border-color:grey;
+    box-shadow: 5px 10px 10px black;
+    border-radius:15px;
+}
+
+
+.delete-row{
+    width: 25%;
+    margin-top:125px;
+    padding: 8px 8px;
+    background: #795bc5;
+    color: white;
+    font-size: 15px;
+    border: 2px solid #795bc5;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+}
+.delete-row:hover{
+    background-color: white;
+    color: #795bc5;
+    border: 2px solid #795bc5;
+
+}.total-section{
+    margin-top: 50px;
+    margin-right:15px;
+}
+.cart-header{
+    letter-spacing: 5px;
+    text-decoration-line:underline;
+    padding-bottom:25px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #795bc5;
+}
+
+.cart-total{
+    box-sizing: content-box;
+   margin-right:10px;
+    font-size:20px;
+}
+
+.form-popup {
+    position: relative;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-popup label{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.form-popup input{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid rgb(141, 136, 136);
+    transition-duration: 0.5s;
+}
+
+.form-popup button{
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #795bc5;
+    background-color: #795bc5;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

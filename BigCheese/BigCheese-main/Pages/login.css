@@ -1,0 +1,233 @@
+body{
+    font-family: Arial;
+    background: #9368E9!important;
+    background-size: cover;
+    align-items: center;
+}
+
+.bottom-tag{
+    color:white;
+    text-decoration: none;
+}
+.bottom-tag:hover{
+    color: grey;
+    transition: all ease 500ms;
+    transform: scale(1.25);
+    font-size:20px;
+    
+}
+input{
+    margin-bottom: 8px;
+}
+
+img{
+  display: inline;
+  margin: 0 auto;
+  height: 100px;
+  width: auto;
+}
+
+.img-cropper{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 80px;
+}
+
+.btn-supplier{
+    text-align: center;
+    background-color: #9368E9;
+    color: white;
+    border: 1px solid #9368E9;
+    border-radius: 12%;
+    padding: 20px 20px;
+    transition: all ease 500ms;
+    margin-right: 15px;
+}
+
+.btn-supplier a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-supplier:hover{
+    background-color: white;
+    color: #9368E9;
+    border: 2px solid #9368E9;
+    transition: all ease 500ms;
+}
+
+.btn-supplier:hover a{
+    color: #9368E9;
+    transition: all ease 500ms;
+}
+
+.btn-buyer {
+    text-align: center;
+    background-color: white;
+    color: #9368E9;
+    border: 1px solid #9368E9;
+    border-radius: 12%;
+    padding: 20px 20px;
+    transition: all ease 500ms;
+}
+
+.btn-buyer a{
+    text-decoration: none;
+    color: #9368E9;
+}
+
+.btn-buyer:hover{
+    background-color: #9368E9;
+    color: white;
+    border: 2px solid #9368E9;
+    transition: all ease 500ms;
+}
+
+.btn-buyer:hover a{
+    color: white;
+    transition: all ease 500ms;
+}
+
+.login-row{
+    padding-top: 150px;
+}
+.form-title{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom:30px;
+    margin-top:15px;
+}
+
+.submit-button, .create-btn{
+    margin-bottom: 25px;
+    margin-top:25px;
+    background-color:#9368E9 !important;
+    color: white !important;
+}
+
+.submit-button a, .create-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.submit-button a:hover, .create-btn a:hover{
+    color: #9368E9 !important;
+    transition: all ease 500ms;
+    transform: scale(1.25);
+}
+
+.submit-button:hover{
+    
+    transition: all ease 500ms;
+    transform: scale(1.25);
+    color:#9368E9 !important;
+    background-color: white !important;
+    border-color: #9368E9 !important;
+    text-decoration: none;
+}
+.create-btn:hover{
+    transition: all ease 500ms;
+    transform: scale(1.25);
+    color:#9368E9 !important;
+    background-color: white !important;
+    border-color: #9368E9 !important;
+    text-decoration: none;
+}
+submit-button:after{
+    color:red !important;
+}
+
+.input-login{
+    margin:25px;
+    font-size: large;
+}
+
+.header-row{
+    text-shadow: 2px 5px black;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    padding:50px;
+    text-align: center;
+    border: 100px;
+}
+
+#footer{
+    padding-bottom:135px;
+}
+#footer, #supplier-footer {
+    font-family: 'Ubuntu', sans-serif;
+   padding-top: 15px;
+  }
+  #supplier-footer{
+    padding-bottom:170px;
+  }
+ 
+  .bottom-footer {
+    padding-top:125px;
+    text-align: center;
+  }
+
+  .employee-login{
+    margin-top:100px;
+    margin-right:25px;
+    width: 35%;
+    text-align:right;
+  }
+
+  /* Supplier login page */
+
+  .supplier-login, .login-card{
+    transition: all ease 1000ms;
+    text-align: center;
+    height: 75%;
+    margin-left:25%;
+    border: 1px solid;
+    margin-top: 75px;
+    padding: 10px;
+    /* box-shadow: 7px 12px #ff9500; */
+    background-color: white;
+  }
+  .supplier-login:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 11px #9368E9;
+     /* box-shadow: 7px 12px  */
+    
+  }
+  .login-card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 11px #9368E9;
+  }
+
+  /* Create Account */
+
+  .create-login{
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+  }
+
+  label{
+    width: 125px;
+    display: inline-block;
+    text-align:left;
+  }
+
+  .welcome-card {
+    margin: 0 175px;
+    text-align: center;
+    height: 250px !important;
+    margin-top:100px !important; 
+    border: 1px #9368E9 ;
+    border-radius: 5px ;
+    padding: 10px 10px;
+    background-color: white;
+  }
+  
+  .top-shelf{
+    padding-bottom: 35px !important;
+  }
